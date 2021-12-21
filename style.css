@@ -76,6 +76,14 @@ header li {
 
 #section-1 {
     background-color: #B4D0E7;
+    position: relative;
+    height: calc(463px - 40px);
+}
+
+#section-1 .log-in {
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
 
 #section-1 .container {
