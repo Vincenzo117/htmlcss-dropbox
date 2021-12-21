@@ -19,6 +19,10 @@ html {
     clear: both;
 }
 
+.clear {
+    clear: both;
+}
+
 .center-text {
     text-align: center;
 }
@@ -47,6 +51,16 @@ a {
     padding: 6px 12px;
     white-space: nowrap;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* HEADER */
@@ -80,6 +94,15 @@ header .col.fr li {
 header li {
     padding: 6px 0;
 }
+
+
+
+
+
+
+
+
+
 
 /* SECTION 1 */
 
@@ -135,6 +158,14 @@ header li {
 #section-1 .jumbo {
     max-width: 500px;
 }
+
+
+
+
+
+
+
+
 
 /* SECTION 2 */
 
@@ -246,10 +277,6 @@ header li {
 
 #section-2 .content-checklist li {
     margin-bottom: 20px;
-}
-
-#section-2 .col-12 .content-subtitle {
-    margin-top: 35px;
 }
 
 #section-2 .check {
