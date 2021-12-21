@@ -144,6 +144,11 @@ header li {
     line-height: 13px;
 }
 
+#section-1 .button {
+    margin-bottom: 8px;
+    max-width: 135px;
+}
+
 #section-1 div.content {
     margin-top: 8px;
     margin-bottom: 30px;
