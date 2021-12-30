@@ -61,7 +61,6 @@ a {
 
 .container-fluid {
     width: 100%;
-    padding: 21px 18px;
 }
 
 .container {
@@ -70,6 +69,10 @@ a {
 }
 
 /* HEADER */
+
+header .container-fluid {
+    padding: 21px 18px;
+}
 
 header .logo {
     width: 115px;
