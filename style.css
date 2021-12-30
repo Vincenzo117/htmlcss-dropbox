@@ -53,12 +53,21 @@ a {
     text-align: center;
 }
 
+.black-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
 .container-fluid {
     width: 100%;
     padding: 21px 18px;
 }
 
-
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 /* HEADER */
 
@@ -144,8 +153,7 @@ header li {
 /* SECTION 2 */
 
 #card-section .container {
-    max-width: 960px;
-    margin: 185px auto 0;
+    margin-top: 185px;
 }
 
 #card-section .title {
@@ -259,5 +267,96 @@ header li {
 }
 
 #card-section .check {
+    color: #0061FF;
+}
+
+
+
+/* SECTION 3 */
+
+#img-text .container {
+    margin-top: 134px;
+    margin-bottom: 105px;
+}
+
+#img-text .col-6 {
+    max-width: 50%;
+}
+
+#img-text .col-6 img {
+    max-width: 100%;
+}
+
+#img-text .col-6:nth-child(2) {
+    padding: 41px 0 0 50px;
+}
+
+#img-text .title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#img-text p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 28px;
+}
+
+
+
+
+
+/* SECTION 4 */
+
+#features .section-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#features .col-4 {
+    max-width: calc((100% - 110px) / 3);
+    display: inline-block;
+    margin-right: 55px;
+    margin-top: 85px;
+}
+
+#features .row .col-4:nth-child(3) {
+    margin-right: 0;
+}
+
+#features img {
+    max-width: 100%;
+    margin-bottom: 23px;
+}
+
+#features .feature-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#features .feature-content {
+    font-size: 16px;
+    line-height: 22px;
+   
+}
+
+
+/* SECTION 5 */
+
+#discover .container {
+    margin: 190px auto 46px;
+    padding-right: 350px;
+}
+
+#discover .title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#discover .discover {
+    text-decoration: underline;
     color: #0061FF;
 }
