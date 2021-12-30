@@ -90,7 +90,6 @@ header li {
 
 #jumbo {
     background-color: #B4D0E7;
-    margin-bottom: 120px;
     height: 662px;
     border-top: 1px solid #DFE0E1;
 }
@@ -145,12 +144,12 @@ header li {
 /* SECTION 2 */
 
 #card-section .container {
-    max-width: 635px;
-    margin: 0 auto;
+    max-width: 960px;
+    margin: 185px auto 0;
 }
 
 #card-section .title {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 54px;
 }
@@ -160,10 +159,14 @@ header li {
 }
 
 #card-section .col-4 {
-    width: calc((100% - 68px) / 3);
+    width: calc((100% - 104px) / 3);
     display: inline-block;
     border: 1px solid #D0D0D3;
-    min-height: 625px;
+    min-height: 950px;
+}
+
+#card-section .col-12 {
+    margin-bottom: 10px;
 }
 
 #card-section .col-12.border {
@@ -175,7 +178,7 @@ header li {
 }
 
 #card-section .col-4:nth-child(2) {
-    margin: 0 34px;
+    margin: 0 52px;
 }
 
 #card-section input {
@@ -183,48 +186,45 @@ header li {
 }
 
 #card-section .card {
-    font-size: 9px;
+    font-size: 13px;
 }
 
 #card-section .card-title {
-    line-height: 27px;
+    line-height: 38px;
     border-bottom: 1px solid #D0D0D3;
+    font-size: 15px;
 }
 
 #card-section .card-content {
-    padding: 22px 17px;
+    padding: 32px 29px;
 }
 
 #card-section .content-title {
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 #card-section .content-price {
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 #card-section .content-period {
     color: #6A7A87;
-    margin-bottom: 32px;
+    margin-bottom: 50px;
 }
 
 #card-section .content-list {
-    margin-bottom: 13px;
+    margin-bottom: 47px;
 }
 
 #card-section .content-list li {
-    margin-bottom: 20px;
-}
-
-#card-section .content-list li i {
-    margin-bottom: px;
+    margin-bottom: 28px;
 }
 
 #card-section .col-4 .content-button {
-    margin-bottom: 21px;
+    margin-bottom: 31px;
 }
 
 #card-section .col-12.border .content-button {
@@ -234,7 +234,7 @@ header li {
 }
 
 #card-section .content-buy-now {
-    margin-bottom: 17px;
+    margin-bottom: 25px;
 }
 
 #card-section .content-buy-now a{
@@ -244,18 +244,18 @@ header li {
 }
 
 #card-section .content-divider {
-    max-width: 30px;
-    margin-bottom: 26px;
+    max-width: 45px;
+    margin-bottom: 40px;
     border-top: 1px solid #D0D0D3;
 }
 
 #card-section .content-subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     font-weight: 600;
 }
 
 #card-section .content-checklist li {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 #card-section .check {
