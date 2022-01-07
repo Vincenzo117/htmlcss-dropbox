@@ -59,6 +59,11 @@ a {
     border: 1px solid black;
 }
 
+.white-button {
+    background-color: white;
+    color: black;
+}
+
 .container-fluid {
     width: 100%;
 }
@@ -66,6 +71,11 @@ a {
 .container {
     max-width: 960px;
     margin: 0 auto;
+}
+
+.content-divider {
+    max-width: 45px;
+    border-top: 1px solid #D0D0D3;
 }
 
 /* HEADER */
@@ -255,9 +265,7 @@ header li {
 }
 
 #card-section .content-divider {
-    max-width: 45px;
     margin-bottom: 40px;
-    border-top: 1px solid #D0D0D3;
 }
 
 #card-section .content-subtitle {
@@ -342,7 +350,6 @@ header li {
 #features .feature-content {
     font-size: 16px;
     line-height: 22px;
-   
 }
 
 
@@ -362,4 +369,103 @@ header li {
 #discover .discover {
     text-decoration: underline;
     color: #0061FF;
+}
+
+
+/* Members Section */
+
+#members .side-col {
+    max-width: 432px;
+}
+
+#members .member-square {
+    width: 216px;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+#members .side-col .member-logo {
+    max-width: 125px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(358deg) brightness(111%) contrast(104%);
+}
+
+#designit {
+    background-color: #A2D39B;
+}
+
+#designit:hover {
+    border: 10px solid #D0E9CD;
+}
+
+#arizona_state_university {
+    background-color: #61082B;
+}
+
+#university_of_florida {
+    background-color: #0093CE;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+#world_bicycle_relief {
+    background-color: #D5001F;
+}
+
+#hearst_corp {
+    background-color: #B4D0E7;
+}
+
+#lonely_planet {
+    background-color: #0D2481;
+}
+
+#clear_channel {
+    background-color: #FFD830;
+}
+
+#members .center-col {
+    padding: 44px;
+    max-width: calc(100% - 432px - 432px);
+    background-color: #F5F5F5;
+    min-height: 432px;
+}
+
+#members .center-col .member-logo {
+    max-width: 125px;
+    margin-bottom: 30px;
+}
+
+#members .content-divider {
+    margin-bottom: 45px;
+}
+
+#members .content {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 52px;
+}
+
+
+/* Free Trial Section */
+
+#free-trial {
+    padding: 125px 240px;
+    background-color: #B4D0E7;
+}
+
+#free-trial .title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #61082B;
+    width: 40%;
+}
+
+#free-trial .button {
+    padding: 8px 58px;
 }
