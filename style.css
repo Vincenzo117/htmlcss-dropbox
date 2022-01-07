@@ -455,7 +455,7 @@ header li {
 /* Free Trial Section */
 
 #free-trial {
-    padding: 125px 240px;
+    padding: 125px 0;
     background-color: #B4D0E7;
 }
 
@@ -463,9 +463,37 @@ header li {
     font-size: 40px;
     font-weight: 600;
     color: #61082B;
-    width: 40%;
+    width: 50%;
 }
 
 #free-trial .button {
     padding: 8px 58px;
+}
+
+
+/* Faq section */
+
+#faq {
+    padding: 120px 0 115px; 
+}
+
+#faq .title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 55px;
+}
+
+#faq li {
+    line-height: 83px;
+    border-top: 1px solid #D0D0D3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#faq li .fr {
+    margin-right: 36px;
+}
+
+#faq li:last-child {
+    border-bottom: 1px solid #D0D0D3;
 }
