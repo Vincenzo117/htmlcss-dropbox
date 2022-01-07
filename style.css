@@ -68,8 +68,13 @@ a {
     width: 100%;
 }
 
-.container {
+.container-small {
     max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    max-width: 1158px;
     margin: 0 auto;
 }
 
@@ -78,7 +83,9 @@ a {
     border-top: 1px solid #D0D0D3;
 }
 
-/* HEADER */
+
+
+/* Header */
 
 header .container-fluid {
     padding: 21px 18px;
@@ -108,7 +115,7 @@ header li {
 
 
 
-/* SECTION 1 */
+/* Jumbo Section */
 
 #jumbo {
     background-color: #B4D0E7;
@@ -122,9 +129,7 @@ header li {
     margin-bottom: 26px;
 }
 
-#jumbo .container {
-    margin: 0 auto;
-    max-width: 1158px;
+#jumbo .container-medium {
     padding-top: 95px;
 }
 
@@ -163,9 +168,9 @@ header li {
 
 
 
-/* SECTION 2 */
+/* Card Section */
 
-#card-section .container {
+#card-section .container-small {
     margin-top: 185px;
 }
 
@@ -283,9 +288,10 @@ header li {
 
 
 
-/* SECTION 3 */
 
-#img-text .container {
+/* Img-Text Section */
+
+#img-text .container-small {
     margin-top: 134px;
     margin-bottom: 105px;
 }
@@ -318,7 +324,7 @@ header li {
 
 
 
-/* SECTION 4 */
+/* Features Section */
 
 #features .section-title {
     font-size: 40px;
@@ -353,9 +359,11 @@ header li {
 }
 
 
-/* SECTION 5 */
 
-#discover .container {
+
+/* Discover Section */
+
+#discover .container-small {
     margin: 190px auto 46px;
     padding-right: 350px;
 }
@@ -370,6 +378,8 @@ header li {
     text-decoration: underline;
     color: #0061FF;
 }
+
+
 
 
 /* Members Section */
@@ -452,6 +462,8 @@ header li {
 }
 
 
+
+
 /* Free Trial Section */
 
 #free-trial {
@@ -469,6 +481,8 @@ header li {
 #free-trial .button {
     padding: 8px 58px;
 }
+
+
 
 
 /* Faq section */
