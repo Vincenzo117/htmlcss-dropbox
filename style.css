@@ -79,7 +79,7 @@ a {
 }
 
 .content-divider {
-    max-width: 45px;
+    width: 45px;
     border-top: 1px solid #D0D0D3;
 }
 
@@ -405,9 +405,6 @@ header li {
 
 #designit {
     background-color: #A2D39B;
-}
-
-#designit:hover {
     border: 10px solid #D0E9CD;
 }
 
@@ -510,4 +507,38 @@ header li {
 
 #faq li:last-child {
     border-bottom: 1px solid #D0D0D3;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .container-medium {
+    padding: 95px 0 40px;   
+}
+
+footer .links {
+    width: 230px;
+}
+
+footer .list-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer .content-divider {
+    margin:100px 0 40px;
+    color: white;
+    width: 100px;
 }
