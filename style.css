@@ -84,7 +84,6 @@ a {
 }
 
 
-
 /* Header */
 
 header .container-fluid {
@@ -541,4 +540,14 @@ footer .content-divider {
     margin:100px 0 40px;
     color: white;
     width: 100px;
+}
+
+footer .language-picker {
+    color: #656565;
+}
+
+footer .language-picker select {
+    color: #656565;
+    background-color: black;
+    border: 0;
 }
